@@ -1,0 +1,37 @@
+Your submission must be your original work. No more than a combined total of 30% of the submission and no more than a 10% match to any one individual source can be directly quoted or closely paraphrased from sources, even if cited correctly. The originality report that is provided when you submit your task can be used as a guide.
+
+ 
+
+You must use the rubric to direct the creation of your submission because it provides detailed criteria that will be used to evaluate your work. Each requirement below may be evaluated by more than one rubric aspect. The rubric aspect titles may contain hyperlinks to relevant portions of the course.
+
+ 
+
+Tasks may not be submitted as cloud links, such as links to Google Docs, Google Slides, OneDrive, etc., unless specified in the task requirements. All other submissions must be file types that are uploaded and submitted as attachments (e.g., .docx, .pdf, .ppt).
+
+
+
+Create a report (suggested length of approximately 15–20 written pages) by doing the following:
+
+
+
+A.  Research Question
+Summarize the original real-data research question you identified in task 1. Your summary should include justification for the research question you identified in task 1, a description of the context in which the research question exists, and a discussion of your hypothesis.
+ 
+
+B.  Data Collection
+Report on your data-collection process by describing the relevant data you collected, discussing any advantages and disadvantages of the data-gathering methodology you used, and discussing how you overcame any challenges you encountered during the process of collecting your data.
+ 
+
+C.  Data Extraction and Preparation
+Describe your data-extraction and -preparation process and provide screenshots to illustrate each step. Explain the tools and techniques you used for data extraction and data preparation, including how these tools and techniques were used on the data. Justify why you used these particular tools and techniques, including any advantages or disadvantages of these when used with your data-extraction and -preparation methods.
+ 
+
+D.  Analysis
+Report on your data-analysis process by describing the analysis technique(s) you used to appropriately analyze the data and by justifying the tools used in your data analysis. Include the calculations you performed and their outputs. Justify how you selected the analysis technique(s) you used, including any advantages or disadvantages of these technique(s).
+ 
+
+E.  Data Summary and Implications
+Summarize the implications of your data analysis by discussing the results of your data analysis in the context of the research question, including any limitations of your analysis. Within the context of your research question, recommend a course of action based on your results. Then propose two directions or approaches for future study of the data set.
+ 
+
+F.  Acknowledge sources, using in-text citations and references, for content that is quoted, paraphrased, or summarized.
