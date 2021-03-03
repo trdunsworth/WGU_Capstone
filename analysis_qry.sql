@@ -19,12 +19,16 @@ SELECT Response_Date,
         WHEN Agency_Type = 'FIRE' AND NOT (Problem LIKE ('%ALS%') OR Problem LIKE ('%BLS%') OR Problem IN ('CONSTRUCTION SITE INJURY','PSYCHIATRIC EMERGENCY VIOLENT','PUBLIC SERVICE EMS')) THEN 'FIRE'
 		ELSE 'DECC'
 	END AS [Agency],
-    MethodOfCallRcvd,
+    COALESCE(NULLIF(MethodOfCallRcvd,''), 'Not Reported') MethodOfCallRcvd,
+    Fixed_Time_PhonePickUp,
+    Fixed_Time_CallEnteredQueue,
+    Time_First_Unit_Assigned,
+    Fixed_Time_CallTakingComplete,
     DATEDIFF(SECOND, Fixed_Time_PhonePickUp, Fixed_Time_CallEnteredQueue) AS [T2Q],
     DATEDIFF(SECOND, Fixed_Time_CallEnteredQueue, Time_First_Unit_Assigned) AS [T2Disp],
     DATEDIFF(SECOND, Fixed_Time_PhonePickUp, Fixed_Time_CallTakingComplete) AS [ProcTime]
 FROM dbo.Response_Master_Incident
-WHERE Response_Date BETWEEN '2019-01-01' AND '2020-01-01'
+WHERE Response_Date BETWEEN '2019-01-01' AND '2021-01-01'
 AND CallTaking_Performed_By IN (SELECT Emp_Name FROM Personnel WHERE Emp_ID BETWEEN '4000' AND '4100')
 AND (Time_First_Unit_Assigned != '' OR Time_First_Unit_Assigned IS NOT NULL)
 AND Fixed_Time_PhonePickUp IS NOT NULL
