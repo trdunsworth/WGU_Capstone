@@ -1,0 +1,17 @@
+ksnormTest(dfull$T2Q)
+
+Title:
+ One-sample Kolmogorov-Smirnov test
+
+Test Results:
+  STATISTIC:
+    D: 0.8171
+  P VALUE:
+    Alternative Two-Sided: < 2.2e-16 
+    Alternative      Less: < 2.2e-16 
+    Alternative   Greater: 1 
+
+Cannot run a Shapiro-Wilk Normality Test
+The sample is too large for this test in R. Must be between 3 and 5000
+The current sample size is 89,951
+
