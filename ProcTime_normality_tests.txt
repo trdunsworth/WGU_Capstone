@@ -18,23 +18,18 @@ Title:
 
 Test Results:
   STATISTIC:
-    X-squared: 73964063588.9446
+    X-squared: 629563078.9168
   P VALUE:
-    Asymptotic p Value: < 2.2e-16 
+    Asymptotic p Value: < 2.2e-16
 
 Title:
  D'Agostino Normality Test
 
 Test Results:
   STATISTIC:
-    Z3  | Skewness: 448.3918
+    Z3  | Skewness: 336.8153
   P VALUE:
-    Skewness Test: < 2.2e-16 
-
-Anderson-Darling normality test
-
-data:  dfull$T2Q
-A = 7065.7, p-value < 2.2e-16
+    Skewness Test: < 2.2e-16
 
 Title:
  Lilliefors (KS) Normality Test
@@ -52,10 +47,10 @@ Test Results:
   PARAMETER:
     Number of Classes: 192
   STATISTIC:
-    P: 605190.2306
+    P: 640434.5523
   P VALUE:
     Adhusted: < 2.2e-16 
-    Not adjusted: < 2.2e-16 
+    Not adjusted: < 2.2e-16
 
 Shapiro-Francis test cannot be run on this dataset.
 The limitations in R are from 5 to 5000 rows
