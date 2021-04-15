@@ -169,3 +169,78 @@ dfull <- na.omit(dfull)
 df19 <- na.omit(df19)
 df20 <- na.omit(df20)
 
+dfull <- dfull[!dfull$T2Q<0, ]
+dfull <- dfull[!dfull$T2Disp<0, ]
+
+df19 <- df19[!df19$T2Q<0, ]
+df19 <- df19[!df19$T2Disp<0, ]
+
+df20 <- df20[!df20$T2Q<0, ]
+df20 <- df20[!df20$T2Disp<0, ]
+
+# normality tests
+# Kolmogorov-Smirnov normality test p<0.05 = non-normal distribution
+ksnormTest(dfull$T2Q)
+ksnormTest(dfull$T2Disp)
+ksnormTest(dfull$ProcTime)
+
+ksnormTest(df19$T2Q)
+ksnormTest(df19$T2Disp)
+ksnormTest(df19$ProcTime)
+
+ksnormTest(df20$T2Q)
+ksnormTest(df20$T2Disp)
+ksnormTest(df20$ProcTime)
+
+# Jarque-Bera normality test p<0.05 = non-normal distribution
+jarqueberaTest(dfull$T2Q)
+jarqueberaTest(dfull$T2Disp)
+jarqueberaTest(dfull$ProcTime)
+
+jarqueberaTest(df19$T2Q)
+jarqueberaTest(df19$T2Disp)
+jarqueberaTest(df19$ProcTime)
+
+jarqueberaTest(df20$T2Q)
+jarqueberaTest(df20$T2Disp)
+jarqueberaTest(df20$ProcTime)
+
+# D'Agostino normality test p<0.05 = non-normal distribution.
+dagoTest(dfull$T2Q)
+dagoTest(dfull$T2Disp)
+dagoTest(dfull$ProcTime)
+
+dagoTest(df19$T2Q)
+dagoTest(df19$T2Disp)
+dagoTest(df19$ProcTime)
+
+dagoTest(df20$T2Q)
+dagoTest(df20$T2Disp)
+dagoTest(df20$ProcTime)
+
+# Anderson-Darling normality test p<0.05 = non-normal distribution
+ad.test(dfull$T2Q)
+ad.test(dfull$T2Disp)
+ad.test(dfull$ProcTime)
+
+ad.test(df19$T2Q)
+ad.test(df19$T2Disp)
+ad.test(df19$ProcTime)
+
+ad.test(df20$T2Q)
+ad.test(df20$T2Disp)
+ad.test(df20$ProcTime)
+
+# Lillefors Test
+lillieTest(dfull$T2Q)
+lillieTest(dfull$T2Disp)
+lillieTest(dfull$ProcTime)
+
+lillieTest(df19$T2Q)
+lillieTest(df19$T2Disp)
+lillieTest(df19$ProcTime)
+
+lillieTest(df20$T2Q)
+lillieTest(df20$T2Disp)
+lillieTest(df20$ProcTime)
+

@@ -60,3 +60,9 @@ Test Results:
 Shapiro-Francis test cannot be run on this dataset.
 The limitations in R are from 5 to 5000 rows
 The current dataset consists of 89,951 rows
+
+	Grubbs test for one outlier
+
+data:  dfull$T2Disp
+G = 272.1797, U = 0.1764, p-value < 2.2e-16
+alternative hypothesis: highest value 2577246 is an outlier
