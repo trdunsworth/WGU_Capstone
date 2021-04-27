@@ -1,0 +1,64 @@
+Title:
+ One-sample Kolmogorov-Smirnov test
+
+Test Results:
+  STATISTIC:
+    D: 0.8171
+  P VALUE:
+    Alternative Two-Sided: < 2.2e-16 
+    Alternative      Less: < 2.2e-16 
+    Alternative   Greater: 1 
+
+Cannot run a Shapiro-Wilk Normality Test
+The sample is too large for this test in R. Must be between 3 and 5000
+The current sample size is 89,951
+
+Title:
+ Jarque - Bera Normalality Test
+
+Test Results:
+  STATISTIC:
+    X-squared: 629563078.9168
+  P VALUE:
+    Asymptotic p Value: < 2.2e-16
+
+Title:
+ D'Agostino Normality Test
+
+Test Results:
+  STATISTIC:
+    Z3  | Skewness: 336.8153
+  P VALUE:
+    Skewness Test: < 2.2e-16
+
+Title:
+ Lilliefors (KS) Normality Test
+
+Test Results:
+  STATISTIC:
+    D: 0.2814
+  P VALUE:
+    < 2.2e-16 
+
+Title:
+ Pearson Chi-Square Normality Test
+
+Test Results:
+  PARAMETER:
+    Number of Classes: 192
+  STATISTIC:
+    P: 640434.5523
+  P VALUE:
+    Adhusted: < 2.2e-16 
+    Not adjusted: < 2.2e-16
+
+Shapiro-Francis test cannot be run on this dataset.
+The limitations in R are from 5 to 5000 rows
+The current dataset consists of 89,951 rows
+
+	Grubbs test for one outlier
+
+data:  dfull$ProcTime
+G = 62.83385, U = 0.95611, p-value < 2.2e-16
+alternative hypothesis: highest value 20141 is an outlier
+
