@@ -39,7 +39,7 @@ SELECT Response_Date,
     DATEDIFF(SECOND, Fixed_Time_PhonePickUp, Fixed_Time_CallTakingComplete) AS [ProcTime]
 FROM dbo.Response_Master_Incident
 WHERE Response_Date BETWEEN '2020-01-01' AND '2021-01-01'
-AND CallTaking_Performed_By IN (SELECT Emp_Name FROM Personnel WHERE Emp_ID BETWEEN '4000' AND '4100')
+AND CallTaking_Performed_By IN (SELECT Emp_Name FROM Personnel WHERE Emp_ID BETWEEN '4000' AND '5000')
 AND (Time_First_Unit_Assigned != '' OR Time_First_Unit_Assigned IS NOT NULL)
 AND Fixed_Time_PhonePickUp IS NOT NULL
 AND (Call_Disposition NOT IN ('TEST1-TEST CALL', 'TST-Test Call', 'TEST-Test Call','DUPPD-Duplicate Police','DUPFD-Duplicate Call Fire','IS-SYSTEM BACK IN SERVICE','SYSTEM BACK IN SERVICE') OR Call_Disposition IS NULL)

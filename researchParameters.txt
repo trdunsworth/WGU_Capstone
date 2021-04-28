@@ -1,0 +1,14 @@
+Research Question
+Summarize the original, real-data research question you identified (and obtained approval for) in Task 1. Your summary should include your justification for the research question, a description of the context in which the research question exists, and a discussion of your hypothesis.
+
+Data Collection
+Report on your data collection process by describing the relevant data you collected, discussing any advantages and disadvantages of the data-gathering methodology you used, and detailing how you overcame any challenges you encountered during the process of collecting your data.
+
+Data Extraction and Preparation
+Describe your data extraction and preparation process. Provide screenshots to illustrate each step, as evidence of the work performed. Explain the tools and techniques you used for data extraction and data preparation, including how these tools and techniques were used on the data. Justify why you used these particular tools and techniques, and include any advantages or disadvantages of these choices when used with your specific data extraction and preparation methods.
+
+Analysis
+Report on your data analysis process by describing the analysis technique(s) you used to appropriately analyze the data. Include a justification of the tools used in your data analysis, the calculations you performed, and their resulting outputs. Explain why you selected the analysis techniques you used, and include a discussion of any advantages or disadvantages of these techniques.
+
+Data Summary and Implications
+Summarize the implications of your data analysis. Discuss the results in the context of the research question, including any limitations of your analysis. Within the context of your research question, also recommend a course of action based on your results. Then propose two directions or approaches for future study of the data set. Ensure that your recommendation and proposals for future study are directly related to your data analysis results. Your suggested proposals should be plausible; that is, they should be ideas for actual/potential future research.
