@@ -1,0 +1,46 @@
+scheirer-ray-hare tests. 
+
+DV:  QueueTime 
+Observations:  149710 
+D:  0.9949724 
+MS total:  1867769484 
+
+                   Df     Sum Sq      H p.value
+Year_f              1 6.0049e+12 3231.3       0
+Week_No            52 2.1694e+12 1167.3       0
+Year_f:Week_No     52 2.1590e+12 1161.8       0
+Residuals      149604 2.6788e+14
+
+DV:  DispatchTime 
+Observations:  149710 
+D:  0.9953849 
+MS total:  1867769484 
+
+                   Df     Sum Sq      H p.value
+Year_f              1 1.2633e+12 679.48       0
+Week_No            52 1.1995e+12 645.20       0
+Year_f:Week_No     52 8.1188e+11 436.70       0
+Residuals      149604 2.7506e+14               
+
+
+DV:  CallTime 
+Observations:  149710 
+D:  0.9949851 
+MS total:  1867769484 
+
+                   Df     Sum Sq      H p.value
+Year_f              1 7.4314e+12 3998.8       0
+Week_No            52 3.1080e+12 1672.4       0
+Year_f:Week_No     52 1.8937e+12 1019.0       0
+Residuals      149604 2.6579e+14               
+
+DV:  ProcessTime 
+Observations:  149710 
+D:  0.9973837 
+MS total:  1867769484 
+
+                   Df     Sum Sq       H p.value
+Year_f              1 2.3093e+12 1239.63       0
+Week_No            52 1.6704e+12  896.69       0
+Year_f:Week_No     52 9.5507e+11  512.68       0
+Residuals      149604 2.7396e+14                

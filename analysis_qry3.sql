@@ -33,12 +33,9 @@ SELECT Response_Date,
 	END AS [PhonePickUp],
     Fixed_Time_CallEnteredQueue,
     Time_First_Unit_Assigned,
-    Fixed_Time_CallTakingComplete,
-    DATEDIFF(SECOND, Fixed_Time_PhonePickUp, Fixed_Time_CallEnteredQueue) AS [T2Q],
-    DATEDIFF(SECOND, Fixed_Time_CallEnteredQueue, Time_First_Unit_Assigned) AS [T2Disp],
-    DATEDIFF(SECOND, Fixed_Time_PhonePickUp, Fixed_Time_CallTakingComplete) AS [ProcTime]
+    Fixed_Time_CallTakingComplete
 FROM dbo.Response_Master_Incident
-WHERE Response_Date BETWEEN '2019-01-01' AND '2020-01-01'
+WHERE Response_Date BETWEEN '2020-01-01' AND '2021-01-01'
 AND CallTaking_Performed_By IN (SELECT Emp_Name FROM Personnel WHERE Emp_ID BETWEEN '4000' AND '5000')
 AND (Time_First_Unit_Assigned != '' OR Time_First_Unit_Assigned IS NOT NULL)
 AND Fixed_Time_PhonePickUp IS NOT NULL
